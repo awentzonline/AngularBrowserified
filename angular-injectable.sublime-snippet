@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+'use strict'
+
+module.exports = /* @ngInject */
+  function ${1:name}(${2:args}) {
+    ${3:// body};
+  };
+
+]]></content>
+    <tabTrigger>angular-injectable</tabTrigger>
+    <scope>source.js</scope>
+    <description>AngularJS injectable function</description>
+</snippet>

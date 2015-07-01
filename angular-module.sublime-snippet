@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+'use strict'
+
+module.exports = angular.module('${1:name}', [
+  ])
+
+]]></content>
+    <tabTrigger>angular-module</tabTrigger>
+    <scope>source.js</scope>
+    <description>AngularJS module</description>
+</snippet>
